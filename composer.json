@@ -1,0 +1,14 @@
+{
+  "require": {
+    "drupal/drupal-extension": "~3.0",
+    "behat/mink-selenium2-driver": "*",
+    "jakub-onderka/php-parallel-lint": "*",
+    "sebastian/phpcpd": "*",
+    "phpunit/phpunit": "*",
+    "facebook/webdriver": "*"
+},
+  "minimum-stability": "dev",
+  "config": {
+    "bin-dir": "bin/"
+  }
+}
