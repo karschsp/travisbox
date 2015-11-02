@@ -15,4 +15,5 @@ before_script:
   - "composer install"
   - "cd ../../.."
 script:
-  - "bin/phpunit search.php"
+  - "printenv"
+  - "bin/phpunit --colors search.php"
