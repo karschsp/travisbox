@@ -11,8 +11,5 @@ before_script:
   - "composer self-update"
   - "composer install"
   - "composer update"
-  - "cd vendor/facebook/webdriver"
-  - "composer install"
-  - "cd ../../../"
 script:
   - "bin/phpunit search.php"
