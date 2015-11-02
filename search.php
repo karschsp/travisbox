@@ -4,10 +4,10 @@
  *
  * Tests the search functionality for menshealth, runnersworld, womenshealthmag
  */
-
+require_once('./vendor/autoload.php');
 require_once('./vendor/facebook/webdriver/vendor/autoload.php');
 
-class zeusSearch extends \PHPUnit_Framework_TestCase
+class zeusSearch extends PHPUnit_Framework_TestCase
 {
   protected $driver;
   
